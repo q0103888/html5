@@ -1,0 +1,38 @@
+body {}
+
+
+header {
+    line-height: 100px;
+    font-size: 3em;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    border: 1px solid gray;
+    color: teal;
+    text-align: center;
+    font-size: 3em;
+}
+
+.box:nth-of-type(1) {
+    position: absolute;
+    top: -50px;
+    left: -100px;
+}
+
+.box:nth-of-type(3) {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.box:nth-of-type(4) {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}

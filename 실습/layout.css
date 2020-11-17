@@ -1,0 +1,94 @@
+body {
+    width: 1250px;
+    margin: 0 auto ;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: blue;
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    
+}
+.menubar>ul>li
+{
+    float: left;
+    width: 80px;
+}
+.main>ul>li{
+    text-align: center;
+}
+.menubar>ul>li>a{
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    line-height: 1.6;
+}
+.main>nav>ul>li>a{
+    width: 80px;
+    color: black;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+    line-height: 1.6;
+}
+a:hover{
+    background-color: green;
+    color: white;
+}
+section{
+    height: 600px;
+    float: left;
+    margin: 0 10px;  
+}
+.main {
+    height: 600px;
+}
+.main nav {
+    width: 150px;
+    height: 500px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid green;
+    float: left;
+    text-align: center;
+}
+.product{
+        width: 300px;
+        height: 500px;
+        margin-left: 10px;
+        float: left;
+        border: 1px solid red;
+}
+aside{
+    width: 150px;
+    height: 500px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid green;
+    float: left;
+    text-align: center;
+}
+figure {
+    margin: 0 auto;
+}
+img{
+    width: 100%
+}
+footer{
+    height: 30px;
+    border: 1px solid black;
+}

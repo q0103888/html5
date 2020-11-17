@@ -1,0 +1,86 @@
+body {
+    width: 1250px;
+    margin: 0 auto ;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: blue;
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+ul>li{
+    width: 80px;
+    float: left;
+}
+a{
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    line-height: 1.6;
+} 
+
+.container{
+     height: 600px;
+     margin: 10px 0 ;
+    /* /background-color: yellow; */
+}
+.container nav, .container aside {
+    width: 150px;
+    height: 500px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid green;
+    float: left;
+}
+.container a{
+   text-decoration: none;
+   color: black;
+   display: block;
+   text-align: center;
+   font-weight: bold;
+   line-height: 1.5;
+}
+.container a:hover{
+    background-color: orangered;
+}
+
+/* .container section {
+    width: 680px;
+    height: 600px;
+    margin: 10px;
+    float: left;
+    border: 1px solid blue;
+} */
+.container p{
+    padding: 10px;
+}
+.container .box{
+    width: 300px;
+    height: 500px;
+    margin-left: 10px;
+    float: left;
+    border: 1px solid red;
+}
+img{
+
+    width: 290px;
+    height: 100px;
+}
+footer{
+    height: 50px;
+    text-align: left;
+    border: 1px solid black;
+}
